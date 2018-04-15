@@ -6,9 +6,17 @@
 //   }
 // })
 
-let app2 = new Vue({
-  el: '#app-2',
+//
+// let app2 = new Vue({
+//   el: '#app-2',
+//   data: {
+//     message: `You loaded this page on ${new Date().toLocaleString()}`
+//   }
+// })
+
+let app3 = new Vue({
+  el: '#app-3',
   data: {
-    message: `You loaded this page on ${new Date().toLocaleString()}`
+    seen: true
   }
 })
